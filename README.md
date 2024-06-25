@@ -1,12 +1,12 @@
-## Malicious Docker Payloads
+## Malicious Docker Payload
 
 This docker image is intended to emulate malicious behavior to test [EDR/Anti](https://www.wicar.org/test-malware.html) Virus solutions on Docker/Kubernetes [Hosts/Clusters](https://www.wicar.org/test-malware.html).
 
 ## How To Run
 ```
-git clone https://github.com/pxcs/Payloads_Docker && cd Payloads_Docker
-docker build -t Payloads_Docker:latest .
-docker run Payloads_Docker:latest
+git clone https://github.com/pxcs/Payload_Docker && cd Payload_Docker
+docker build -t Payload_Docker:latest .
+docker run Payload_Docker:latest
 ```
 
 ## What Tests are Running?
